@@ -19,7 +19,7 @@ public class Main extends JavaPlugin implements Listener {
   
   public void onEnable() {
     getLogger().info("PotionAttack aktif");
-    getServer().getPluginManager().registerEvents(this, (Plugin)this);
+    getServer().getPluginManager().registerEvents(this, this);
   }
   
   public void onDisable() {
